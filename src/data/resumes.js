@@ -103,13 +103,13 @@ export const profileData = {
             image: blueberryYield
         },
         {
-            title: "AI Mushroom Farm IoT",
+            title: "AI Mushroom Cultivation IoT",
             description: "Smart system integrating sensors and Computer Vision (YOLOv8) to monitor temperature, humidity, and mushroom growth.",
             tech: ["Python", "IoT", "YOLOv8", "Roboflow"],
             image: listAi
         },
         {
-            title: "AI Mushroom Farm IoT",
+            title: "AI Mushroom Growing IoT",
             description: "Smart system integrating sensors and Computer Vision (YOLOv8) to monitor temperature, humidity, and mushroom growth.",
             tech: ["Python", "IoT", "YOLOv8", "Roboflow"],
             image: listAi2
