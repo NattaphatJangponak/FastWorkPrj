@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import Hero from './components/Hero';
 import Services from './components/Services';
+import About from './components/About';
 import Skills from './components/Skills';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
@@ -38,6 +39,7 @@ function App() {
                     <nav className="hidden md:flex items-center gap-8">
                         <button onClick={() => scrollToSection('services')} className="text-sm font-medium hover:text-primary transition-colors">Services</button>
                         <button onClick={() => scrollToSection('projects')} className="text-sm font-medium hover:text-primary transition-colors">Work</button>
+                        <button onClick={() => scrollToSection('about')} className="text-sm font-medium hover:text-primary transition-colors">About</button>
                         <button onClick={() => scrollToSection('contact')} className="px-5 py-2.5 rounded-full bg-primary text-primary-foreground text-sm font-medium hover:bg-primary/90 transition-colors">
                             Contact Us
                         </button>
@@ -55,6 +57,7 @@ function App() {
                     <div className="flex flex-col gap-6 text-2xl font-semibold">
                         <button onClick={() => scrollToSection('services')} className="text-left py-2 border-b">Services</button>
                         <button onClick={() => scrollToSection('projects')} className="text-left py-2 border-b">Work</button>
+                        <button onClick={() => scrollToSection('about')} className="text-left py-2 border-b">About</button>
                         <button onClick={() => scrollToSection('contact')} className="text-left py-2 text-primary">Contact Us</button>
                     </div>
                 </div>
@@ -65,6 +68,7 @@ function App() {
                 <Services />
                 <Skills />
                 <Projects />
+                <About />
                 <Contact />
             </main>
 
