@@ -100,12 +100,7 @@ export const profileData = {
         ]
     },
     projects: [
-        {
-            title: "Blueberry Yield Prediction",
-            description: "Kaggle kernel using XGBoost and pickle to forecast wild blueberry yield, deployed via Streamlit.",
-            tech: ["Python", "XGBoost", "Streamlit"],
-            image: blueberryYield
-        },
+
         {
             title: "AI Mushroom Cultivation IoT",
             description: "Smart system integrating sensors and Computer Vision (YOLOv8) to monitor temperature, humidity, and mushroom growth.",
@@ -117,6 +112,12 @@ export const profileData = {
             description: "Smart system integrating sensors and Computer Vision (YOLOv8) to monitor temperature, humidity, and mushroom growth.",
             tech: ["Python", "IoT", "YOLOv8", "Roboflow"],
             image: listAi2
+        },
+        {
+            title: "Blueberry Yield Prediction",
+            description: "Kaggle kernel using XGBoost and pickle to forecast wild blueberry yield, deployed via Streamlit.",
+            tech: ["Python", "XGBoost", "Streamlit"],
+            image: blueberryYield
         },
         {
             title: "Mushroom Temperature Monitor",
