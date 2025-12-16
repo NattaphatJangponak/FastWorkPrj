@@ -8,7 +8,7 @@ import {
 import {
     SiTailwindcss, SiMysql, SiMongodb, SiFlutter, SiAndroidstudio,
     SiAdobexd, SiRoboflow, SiTensorflow, SiOpencv, SiStreamlit,
-    SiArduino, SiCplusplus, SiNodered
+    SiArduino, SiCplusplus, SiNodered, SiOdoo, SiTypescript, SiMui, SiDjango, SiPytorch
 } from "react-icons/si";
 
 // Icon Mapping
@@ -17,7 +17,10 @@ const iconMap = {
     FaPython, FaRaspberryPi, FaDocker, FaFigma,
     SiTailwindcss, SiMysql, SiMongodb, SiFlutter, SiAndroidstudio,
     SiAdobexd, SiRoboflow, SiTensorflow, SiOpencv, SiStreamlit,
-    SiArduino, SiCplusplus, SiNodered
+    SiArduino, SiCplusplus, SiNodered, SiOdoo, SiTypescript,
+    SiMUI: SiMui,
+    FaDjango: SiDjango,
+    SiPytorch
 };
 
 const SkillCard = ({ skill, index }) => {

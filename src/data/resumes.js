@@ -65,17 +65,21 @@ export const profileData = {
     skills: {
         web: [
             { name: "ReactJS", level: 90, icon: "FaReact" },
+            { name: "Vue.js", level: 85, icon: "FaVuejs" },
             { name: "Node.js", level: 90, icon: "FaNodeJs" },
-            { name: "HTML5", level: 95, icon: "FaHtml5" },
-            { name: "CSS3", level: 95, icon: "FaCss3Alt" },
+            { name: "Django", level: 85, icon: "FaDjango" },
+            { name: "Odoo", level: 85, icon: "SiOdoo" },
+            { name: "MUI", level: 95, icon: "SiMUI" },
             { name: "Tailwind", level: 95, icon: "SiTailwindcss" },
+            { name: "TypeScript", level: 90, icon: "SiTypescript" },
             { name: "MySQL", level: 88, icon: "SiMysql" },
-            { name: "MongoDB", level: 85, icon: "SiMongodb" },
-            { name: "Vue.js", level: 85, icon: "FaVuejs" }
+            { name: "MongoDB", level: 85, icon: "SiMongodb" }
+
+
         ],
         application: [
             { name: "Flutter", level: 85, icon: "SiFlutter" },
-            { name: "Java", level: 85, icon: "FaJava" },
+            { name: "React Native", level: 85, icon: "FaReact" },
             { name: "Android Studio", level: 80, icon: "SiAndroidstudio" },
             { name: "Figma", level: 85, icon: "FaFigma" },
             { name: "Adobe XD", level: 80, icon: "SiAdobexd" }
@@ -83,7 +87,7 @@ export const profileData = {
         ai: [
             { name: "Python", level: 90, icon: "FaPython" },
             { name: "YOLOv8", level: 85, icon: "SiRoboflow" },
-            { name: "TensorFlow", level: 75, icon: "SiTensorflow" },
+            { name: "PyTorch", level: 75, icon: "SiPytorch" },
             { name: "OpenCV", level: 80, icon: "SiOpencv" },
             { name: "Streamlit", level: 85, icon: "SiStreamlit" }
         ],
