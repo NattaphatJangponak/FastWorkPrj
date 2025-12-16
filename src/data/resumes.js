@@ -28,10 +28,12 @@ import iotNeon from '../assets/๋J/Iot/Iot neon.png';
 import wasteCabinet from '../assets/๋J/Iot/Metal bottle Detecting cabinet.jpg';
 import Pi from '../assets/๋J/Iot/Pi home assitant esp32.jpg';
 import Temp from '../assets/๋J/Iot/Tempmushroom.jpg';
+import Ui from '../assets/๋J/web/UI.png';
 
-
-
-
+import cyberLearning from '../assets/Tae/web/CyberLearningPlatform.png';
+import financialDashboard from '../assets/Tae/web/FinancialManagement.png';
+import sensorDataSimulation from '../assets/Tae/web/SensorSimulation.png';
+import ipcamera from '../assets/Tae/iot/Ipcamera.jpg';
 
 
 
@@ -141,20 +143,20 @@ export const profileData = {
             title: "Cybersecurity Learning Platform",
             description: "A web-based platform simulating real-world cyber threat scenarios for user training. Thesis project.",
             tech: ["ReactJS", "Node.js", "Docker", "MySQL"],
-            image: null
+            image: cyberLearning
         },
         {
             title: "Financial Management Dashboard",
-            description: "Complete UI/UX design and implementation of a stock module with CRUD operations and REST API.",
+            description: "Complete UI/UX design and implementation stock and bill module with CRUD operations and REST API.",
             tech: ["React", "TypeScript", "Node.js", "MongoDB"],
-            image: null
+            image: financialDashboard
         },
 
         {
-            title: "Doki-Shop E-commerce",
-            description: "Full-featured clothing store web application with product import, order management, and user interface.",
+            title: "Sensor Data Simulation Web App",
+            description: "Developed a web application to store sensor data from tower systems and export CSV file for data log.",
             tech: ["ReactJS", "Node.js", "MySQL"],
-            image: null
+            image: sensorDataSimulation
         },
         {
             title: "Robot Tracking System",
@@ -193,16 +195,22 @@ export const profileData = {
             image: Pi
         },
         {
+            title: "Ip Camera Object Detection",
+            description: "IoT project using Raspberry Pi to detect objects in real-time.",
+            tech: ["Raspberry Pi", "Python", "OpenCV"],
+            image: ipcamera
+        },
+        {
             title: "Smart Lamp Application",
             description: "IoT project using ESP32 to control smart lighting systems.",
             tech: ["ESP32", "C++", "Sensors"],
             image: iotNeon
         },
         {
-            title: "Flower Shop UI Prototype",
-            description: "High-fidelity mobile app prototype for a flower shop service, designed in Adobe XD.",
-            tech: ["Adobe XD", "UI/UX", "Prototyping"],
-            image: null
+            title: "UX/UI another project",
+            description: "Ux/UI design and prototyping.",
+            tech: ["Adobe XD", "Figma", "UI/UX", "Prototyping"],
+            image: Ui
         }
     ]
 };
