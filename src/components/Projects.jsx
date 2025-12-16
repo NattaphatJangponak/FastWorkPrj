@@ -76,9 +76,6 @@ const Projects = () => {
                             Highlights of our best work in Web, Mobile, and IoT.
                         </p>
                     </div>
-                    <a href="https://github.com/NattphatJangponak" target="_blank" className="flex items-center text-primary font-medium hover:underline">
-                        View Github <ArrowUpRight className="ml-1 w-4 h-4" />
-                    </a>
                 </div>
 
                 <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">

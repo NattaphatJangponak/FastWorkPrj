@@ -36,21 +36,21 @@ const Contact = () => {
                         viewport={{ once: true }}
                         className="bg-background rounded-2xl p-8"
                     >
-                        <h3 className="text-black text-xl font-bold mb-6">Send a Message</h3>
+                        <h3 className="text-white text-xl font-bold mb-6">Send a Message</h3>
                         <div className="space-y-4">
                             <div className="grid grid-cols-2 gap-4">
                                 <div className="space-y-2">
-                                    <label className="text-sm font-medium text-black">Name</label>
-                                    <input type="text" className="w-full h-10 px-3 rounded-md border border-input bg-transparent text-black ring-offset-background focus:outline-none focus:ring-2 focus:ring-ring" placeholder="Your name" />
+                                    <label className="text-sm font-medium text-white">Name</label>
+                                    <input type="text" className="w-full h-10 px-3 rounded-md border border-input bg-transparent text-white ring-offset-background focus:outline-none focus:ring-2 focus:ring-ring" placeholder="Your name" />
                                 </div>
                                 <div className="space-y-2">
-                                    <label className="text-sm font-medium text-black">Email</label>
-                                    <input type="email" className="w-full h-10 px-3 rounded-md border border-input bg-transparent text-black ring-offset-background focus:outline-none focus:ring-2 focus:ring-ring" placeholder="you@company.com" />
+                                    <label className="text-sm font-medium text-white">Email</label>
+                                    <input type="email" className="w-full h-10 px-3 rounded-md border border-input bg-transparent text-white ring-offset-background focus:outline-none focus:ring-2 focus:ring-ring" placeholder="you@company.com" />
                                 </div>
                             </div>
                             <div className="space-y-2">
-                                <label className="text-sm font-medium text-black">Message</label>
-                                <textarea className="w-full min-h-[120px] px-3 py-2 rounded-md border border-input bg-transparent text-black ring-offset-background focus:outline-none focus:ring-2 focus:ring-ring" placeholder="Tell us about your project..."></textarea>
+                                <label className="text-sm font-medium text-white">Message</label>
+                                <textarea className="w-full min-h-[120px] px-3 py-2 rounded-md border border-input bg-transparent text-white ring-offset-background focus:outline-none focus:ring-2 focus:ring-ring" placeholder="Tell us about your project..."></textarea>
                             </div>
                             <button className="w-full h-11 rounded-md bg-primary text-primary-foreground font-medium hover:bg-primary/90 transition-colors">
                                 Send Message

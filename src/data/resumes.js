@@ -12,19 +12,28 @@ import {
 // Images
 
 
-import listMobile from '../assets/๋J/web/Listmobile.png';
-import listWeb from '../assets/๋J/web/Listweb.png';
-import listWeb2 from '../assets/๋J/web/Listweb2.png';
-
-import smartMushroom from '../assets/๋J/Iot/Smart Mushroom Farm.jpg';
-import wasteCabinet from '../assets/๋J/Iot/Metal bottle Detecting cabinet.jpg';
-import iotNeon from '../assets/๋J/Iot/Iot neon.png';
-
 import listAi from '../assets/๋J/ai/Segment.jpg';
 import listAi2 from '../assets/๋J/ai/Segment ai2.png';
 import blueberryYield from '../assets/๋J/ai/Prediction of Wild Blueberry Yield.png';
 
+import listMobile from '../assets/๋J/web/Listmobile.png';
+import listWeb from '../assets/๋J/web/Listweb.png';
+import listWeb2 from '../assets/๋J/web/Listweb2.png';
+
 import listRobot from '../assets/๋J/robot/ListRobot.png';
+
+import smartMushroom from '../assets/๋J/Iot/Smart Mushroom Farm.jpg';
+import Alarm from '../assets/๋J/Iot/Alarm กินยา.jpg';
+import iotNeon from '../assets/๋J/Iot/Iot neon.png';
+import wasteCabinet from '../assets/๋J/Iot/Metal bottle Detecting cabinet.jpg';
+import Pi from '../assets/๋J/Iot/Pi home assitant esp32.jpg';
+import Temp from '../assets/๋J/Iot/Tempmushroom.jpg';
+
+
+
+
+
+
 
 export const profileData = {
     brand: "YourSkill",
@@ -88,6 +97,12 @@ export const profileData = {
     },
     projects: [
         {
+            title: "Blueberry Yield Prediction",
+            description: "Kaggle kernel using XGBoost and pickle to forecast wild blueberry yield, deployed via Streamlit.",
+            tech: ["Python", "XGBoost", "Streamlit"],
+            image: blueberryYield
+        },
+        {
             title: "AI Mushroom Farm IoT",
             description: "Smart system integrating sensors and Computer Vision (YOLOv8) to monitor temperature, humidity, and mushroom growth.",
             tech: ["Python", "IoT", "YOLOv8", "Roboflow"],
@@ -106,47 +121,10 @@ export const profileData = {
             image: listWeb
         },
         {
-            title: "Cybersecurity Learning Platform",
-            description: "A web-based platform simulating real-world cyber threat scenarios for user training. Thesis project.",
-            tech: ["ReactJS", "Node.js", "Docker", "MySQL"],
-            image: listWeb2
-        },
-        {
-            title: "Financial Management Dashboard",
-            description: "Complete UI/UX design and implementation of a stock module with CRUD operations and REST API.",
-            tech: ["React", "TypeScript", "Node.js", "MongoDB"],
-            image: listWeb
-        },
-
-        {
-            title: "Doki-Shop E-commerce",
-            description: "Full-featured clothing store web application with product import, order management, and user interface.",
-            tech: ["ReactJS", "Node.js", "MySQL"],
-            image: listWeb
-        },
-        {
-            title: "Waste Sorting Smart Cabinet",
-            description: "IoT project using ESP32 to detect and sort plastic vs metal bottles automatically.",
-            tech: ["ESP32", "C++", "Sensors"],
-            image: wasteCabinet
-        },
-        {
-            title: "Robot Tracking System",
-            description: "Joy PS2-controlled robot that tracks lines and performs acrobatics. Uses Arduino Nano and mobile control.",
-            tech: ["C++", "Arduino", "Robotics"],
-            image: listRobot
-        },
-        {
-            title: "Smart Lamp Application",
-            description: "Mobile control for smart lighting systems, developed with Android Studio to control temperature and humidity.",
-            tech: ["Android Studio", "Java", "IoT"],
-            image: iotNeon
-        },
-        {
-            title: "Blueberry Yield Prediction",
-            description: "Kaggle kernel using XGBoost and pickle to forecast wild blueberry yield, deployed via Streamlit.",
-            tech: ["Python", "XGBoost", "Streamlit"],
-            image: blueberryYield
+            title: "List mobile",
+            description: "List mobile application for warehouse management with user interface and user experience design.",
+            tech: ["Flutter", "Java", "Android Studio"],
+            image: listMobile
         },
         {
             title: "Web Application AEKI",
@@ -155,16 +133,71 @@ export const profileData = {
             image: listWeb2
         },
         {
-            title: "List mobile",
-            description: "List mobile application for warehouse management with user interface and user experience design.",
-            tech: ["Flutter", "Java", "Android Studio"],
-            image: listMobile
+            title: "Cybersecurity Learning Platform",
+            description: "A web-based platform simulating real-world cyber threat scenarios for user training. Thesis project.",
+            tech: ["ReactJS", "Node.js", "Docker", "MySQL"],
+            image: null
+        },
+        {
+            title: "Financial Management Dashboard",
+            description: "Complete UI/UX design and implementation of a stock module with CRUD operations and REST API.",
+            tech: ["React", "TypeScript", "Node.js", "MongoDB"],
+            image: null
+        },
+
+        {
+            title: "Doki-Shop E-commerce",
+            description: "Full-featured clothing store web application with product import, order management, and user interface.",
+            tech: ["ReactJS", "Node.js", "MySQL"],
+            image: null
+        },
+        {
+            title: "Robot Tracking System",
+            description: "Joy PS2-controlled robot that tracks lines and performs acrobatics. Uses Arduino Nano and mobile control.",
+            tech: ["C++", "Arduino", "Robotics"],
+            image: listRobot
+        },
+        {
+            title: "Smart Mushroom Farm",
+            description: "IoT project using ESP32 to detect mushroom growth and temperature.",
+            tech: ["ESP32", "C++", "Sensors"],
+            image: smartMushroom
+        },
+        {
+            title: "Temp Mushroom Farm",
+            description: "IoT project using Metter to detect temperature and humidity.",
+            tech: ["ESP32", "C++", "Sensors"],
+            image: Temp
+        },
+        {
+            title: "Waste Sorting Smart Cabinet",
+            description: "IoT project using ESP32 to detect and sort plastic vs metal bottles automatically.",
+            tech: ["ESP32", "C++", "Sensors"],
+            image: wasteCabinet
+        },
+        {
+            title: "Alarm System",
+            description: "IoT project using ESP32 to detect motion and send notifications.",
+            tech: ["ESP32", "C++", "Sensors"],
+            image: Alarm
+        },
+        {
+            title: "Smart Home System",
+            description: "IoT project using Raspberry Pi to control home appliances.",
+            tech: ["Raspberry Pi", "Python", "Home Assistant"],
+            image: Pi
+        },
+        {
+            title: "Smart Lamp Application",
+            description: "IoT project using ESP32 to control smart lighting systems.",
+            tech: ["ESP32", "C++", "Sensors"],
+            image: iotNeon
         },
         {
             title: "Flower Shop UI Prototype",
             description: "High-fidelity mobile app prototype for a flower shop service, designed in Adobe XD.",
             tech: ["Adobe XD", "UI/UX", "Prototyping"],
-            image: listMobile
+            image: null
         }
     ]
 };
